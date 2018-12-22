@@ -149,3 +149,6 @@ defaults:
      type: bios
     values:
      layout: bio
+
+head_scripts:
+   - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
