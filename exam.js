@@ -23,7 +23,7 @@ $(document).ready(function(){
 	if (pageNum %2 ==0) {
 	    var img = $('<img>');
 	    img.addClass("even-page-staple-img");
-            img.attr('src', "/images/Staple-Even-Pages.png");
+            img.attr('src', "{{ '/assets/img/Staple-Even-Pages.png' | relative_url }}");
 	    img.appendTo($div);
 	} else {
 	 $('.exam-name-header-template').first().clone().appendTo($div); 
