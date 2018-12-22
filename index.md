@@ -9,7 +9,7 @@ title: CS56, Fall 2018, pconrad
 <h2>Course Information</h2>
 <ul>
 {% for item in site.info %}
-<li><a href="{{item.url}}"  data-ajax="false">{{item.title }}</a></li>
+<li><a href="{{item.url | relative_url }}"  data-ajax="false">{{item.title }}</a></li>
 {% endfor %}
 </ul>
 </div>
