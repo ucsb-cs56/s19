@@ -28,7 +28,7 @@ p.staff-bio { max-width: 70em; /* http://maxdesign.com.au/articles/ideal-line-le
 <table class="bios">
 <tr><th>Name</th><th>Role</th><th>Bio</th></tr>
 {% for b in site.bios %}
-<tr><td><a href="{{b.url}}"  data-ajax="false">{{b.name }}</a></td><td>{{b.role}}</td><td><p class="staff-bio">{{b.bio}}</p></td></tr>
+<tr><td><a href="{{b.url | relative_url }}"  data-ajax="false">{{b.name }}</a></td><td>{{b.role}}</td><td><p class="staff-bio">{{b.bio}}</p></td></tr>
 {% endfor %}
 </table>
 </div>

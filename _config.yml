@@ -3,6 +3,8 @@ plugins:
 
 remote_theme: pconrad/ucsb-cs-try1
 
+url: https://pconrad.github.io # the base hostname & protocol for your site
+baseurl: /cs56-f18-try1  # the subpath of your site, e.g. "/blog"
 
 course: "CS56"
 qtr: "F18"
@@ -12,6 +14,9 @@ piazza_url: https://piazza.com/class/jkq2p768nf6xb
 gauchospace_course_page: https://gauchospace.ucsb.edu/courses/course/view.php?id=31412
 github_org_name: ucsb-cs56-f18
 github_org_url: https://github.com/ucsb-cs56-f18
+
+
+
 
 ta_list: "Santha and Jinjin"
 ta_list_full: "Santha Meena Ramamoorthy and Jinjin Shao"
