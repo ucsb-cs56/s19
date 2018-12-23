@@ -28,7 +28,7 @@ p.staff-bio { max-width: 70em; /* http://maxdesign.com.au/articles/ideal-line-le
 <h2 id="bios">Course Staff Bios:</h2>
 <table class="bios">
 <tr><th>Name</th><th>Role</th><th>Bio</th></tr>
-{% for b in site.bios %}
+{% for b in site.staff %}
 <tr><td><a href="{{b.url | relative_url }}"  data-ajax="false">{{b.name }}</a></td><td>{{b.role}}</td><td><p class="staff-bio">{{b.bio}}</p></td></tr>
 {% endfor %}
 </table>
@@ -53,7 +53,7 @@ p.staff-bio { max-width: 70em; /* http://maxdesign.com.au/articles/ideal-line-le
 <div data-role="collapsible" data-collapsed="false">
 <h2 id="teams">Lectures</h2>
 
-See also: [LECTURE* repos](https://github.com/ucsb-cs56-f18?utf8=%E2%9C%93&q=LECTURE&type=&language=) from <https://github.com/ucsb-cs56-f18>
+See also: [LECTURE* repos]({{github_org_url}}?utf8=%E2%9C%93&q=LECTURE&type=&language=) from <{{github_org_url}}>}}>
   
 {%include lectures_table.html %}
 </div>

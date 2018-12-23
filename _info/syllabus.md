@@ -1,5 +1,5 @@
 ---
-title: "Syllabus, CMPSC 56, Fall 2018"
+title: "Syllabus, CMPSC 56, Spring 2019"
 layout: handout
 ready: false
 ---
@@ -9,13 +9,13 @@ ready: false
 Basic Facts
 -----------
 
-* **Instructor**:  [Phill Conrad](http://www.cs.ucsb.edu/~pconrad) (contact via Piazza)
+* **Instructor**:  [TBD](http://www.cs.ucsb.edu/~tbd) (contact via Piazza)
    * Use the "instructor messsage" feature to contact Prof. Conrad, as well as all TAs, Readers and Mentors
 * **Lecture**: TIME TBA ROOM TBA. ATTENDANCE REQUIRED. 
 * **TAs**: {{site.ta_list_full}} (contact via Piazza)
 * **Mentors**: {{site.mentors_list}} (contact via Piazza)
 * **Lab** (50 minute discussion section) Thursday {{site.discussion_section_times}}, Phelps 3525. ATTENDANCE REQUIRED.                                         
-* Office Hours: See: <http://www.cs.ucsb.edu/~pconrad/ofchrs>  
+* Office Hours: See <https://ucsb-cs56.github.io/s19/info/office_hours/>
 
 For course website links, visit the course Gauchospace site.
 

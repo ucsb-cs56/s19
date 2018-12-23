@@ -1,5 +1,5 @@
 ---
-title: "F18 Open Lab Hours"
+title: "Open Lab Hours"
 layout: default
 ready: true
 ---
