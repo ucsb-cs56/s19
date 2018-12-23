@@ -1,5 +1,6 @@
 ---
 title: CS56, Fall 2018, pconrad
+permalink: "/"
 ---
 
 # {{site.course}}, {{site.quarter}}

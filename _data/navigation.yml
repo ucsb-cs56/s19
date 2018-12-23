@@ -1,0 +1,35 @@
+# the production_url is the url that the parent/child site have in common
+#  e.g. production_url: https://ucsb-cs56.github.io
+#  for main site http://ucsb-cs56.github.io
+#  and child sites
+#    https://ucsb-cs56.github.io/w18
+#    https://ucsb-cs56.github.io/f18
+#    https://ucsb-cs56.github.io/s19
+#    etc.
+
+production_url: https://ucsb-cs56.github.io
+
+# List the title and url for each item on navigation bar.
+# For items that should be relative urls, put the baseurl of the site
+# they come from, / for main site, and /f18, /s19, etc for child sites.
+
+main:
+  - title: UCSB CS56 pconrad
+    url: /
+    baseurl: /
+  - title: CS56 F18
+    url: /
+    baseurl: /f18
+  - title: ucsb-cs56-pconrad github org
+    url: https://github.com/ucsb-cs56-pconrad
+  - title: Office Hours
+    url: /office_hours/	 
+    baseurl: /f18
+  - title: Gauchospace
+    url: https://gauchospace.ucsb.edu/courses/course/view.php?id=31412
+  - title: Piazza
+    url: https://piazza.com/class/jkq2p768nf6xb
+  - title: ucsb-cs56-f18 github org
+    url: https://github.com/ucsb-cs56-f18
+  - title: ucsb-cs56-webapps
+    url: https://github.com/ucsb-cs56-webapps
