@@ -20,11 +20,12 @@ main:
   - title: CS56 F18
     url: /
     baseurl: /f18
-  - title: ucsb-cs56-pconrad github org
-    url: https://github.com/ucsb-cs56-pconrad
+  - title: CS56 S18
+    url: /
+    baseurl: /s19
   - title: Office Hours
     url: /office_hours/	 
-    baseurl: /f18
+    baseurl: /s19
   - title: Gauchospace
     url: https://gauchospace.ucsb.edu/courses/course/view.php?id=31412
   - title: Piazza
