@@ -3,8 +3,8 @@ layout: lab
 num: lab00
 ready: true
 desc: "Getting Started"
-assigned: 2018-09-27 16:00
-due: 2018-10-02 23:59
+assigned: 2019-04-04 16:00
+due: 2019-04-05 23:59
 signup_app: https://ucsb-cs-github-linker.herokuapp.com/
 ---
 

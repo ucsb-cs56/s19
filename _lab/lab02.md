@@ -3,9 +3,9 @@ layout: lab
 num: lab02
 ready: true
 desc: "Polynomials"
-assigned: 2018-09-27 16:00
-due: 2018-10-18 23:59
-github_org: "ucsb-cs56-f18"
+assigned: 2019-04-04 16:00
+due: 2019-04-16 23:59
+github_org: "ucsb-cs56-f19"
 starter_repo: "https://github.com/ucsb-cs56-w18/STARTER_lab02"
 ---
 

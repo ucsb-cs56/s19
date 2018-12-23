@@ -3,9 +3,9 @@ layout: lab
 num: lab01
 ready: true
 desc: "Tools for java development"
-assigned: 2018-09-27 16:00
-due: 2018-10-05 23:59
-org: ucsb-cs56-f18
+assigned: 2019-04-04 16:00
+due: 2019-04-10 23:59
+org: ucsb-cs56-s19
 herokuapp: "https://ucsb-cs-github-linker.herokuapp.com/"
 ---
 
