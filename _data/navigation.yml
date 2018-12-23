@@ -24,7 +24,7 @@ main:
     url: /
     baseurl: /s19
   - title: Office Hours
-    url: /office_hours/	 
+    url: /info/office_hours/	 
     baseurl: /f18
   - title: Gauchospace
     url: https://gauchospace.ucsb.edu/courses/course/view.php?id=31412
