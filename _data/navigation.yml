@@ -14,7 +14,7 @@ production_url: https://ucsb-cs56.github.io
 # they come from, / for main site, and /f18, /s19, etc for child sites.
 
 main:
-  - title: UCSB CS56 pconrad
+  - title: UCSB CS56
     url: /
     baseurl: /
   - title: CS56 F18
@@ -25,7 +25,7 @@ main:
     baseurl: /s19
   - title: Office Hours
     url: /office_hours/	 
-    baseurl: /s19
+    baseurl: /f18
   - title: Gauchospace
     url: https://gauchospace.ucsb.edu/courses/course/view.php?id=31412
   - title: Piazza
