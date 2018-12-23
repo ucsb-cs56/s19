@@ -7,6 +7,8 @@ remote_theme: pconrad/ucsb-cs-try1
 url: https://ucsb-cs56.github.io # the base hostname & protocol for your site
 baseurl: /s19  # the subpath of your site, e.g. "/blog"
 
+ajax_navbar_url: "https://ucsb-cs56.github.io/nav_only/"
+
 course: "CS56"
 qtr: "S19"
 qxx: "s19"
