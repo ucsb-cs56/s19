@@ -90,9 +90,9 @@ collections:
   lectures:
     output: true
     permalink: /lectures/:path/
-  bios:
+  staff:
     output: true
-    permalink: /bios/:path
+    permalink: /staff/:path
 
 
 
@@ -141,9 +141,9 @@ defaults:
   -
     scope:
      path: ""
-     type: bios
+     type: staff
     values:
-     layout: bio
+     layout: staff
 
 head_scripts:
    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
