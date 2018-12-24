@@ -7,10 +7,6 @@ permalink: "/info_list/"
 
 ## Course Information
 
-<ul>
-{% for item in site.info %}
-<li><a href="{{item.url | relative_url }}"  data-ajax="false">{{item.title }}</a></li>
-{% endfor %}
-</ul>
+{% include info_list.html %}
 
 

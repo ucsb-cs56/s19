@@ -5,56 +5,47 @@ permalink: "/"
 
 # {{site.course}}, {{site.quarter}}
 
-
-<div id="info" data-role="collapsible" data-collapsed="false">
-<h2>Course Information</h2>
-<ul>
-{% for item in site.info %}
-<li><a href="{{item.url | relative_url }}"  data-ajax="false">{{item.title }}</a></li>
-{% endfor %}
-</ul>
+{% include collapse-button.html label="Information" id="info-list" %}
+<div class="collapse" id="info-list">
+ <div class="card card-body">
+  {% include info_list.html %}
+ </div>
 </div>
 
-<style>
-table.bios * td {
- padding: 0.2em;
-}
-p.staff-bio { max-width: 70em; /* http://maxdesign.com.au/articles/ideal-line-length-in-ems/ */
-              padding: 0.5em;
-	    }
-</style>
-
-<div data-role="collapsible" data-collapsed="true">
-<h2 id="bios">Course Staff Bios:</h2>
-<table class="bios">
-<tr><th>Name</th><th>Role</th><th>Bio</th></tr>
-{% for b in site.staff %}
-<tr><td><a href="{{b.url | relative_url }}"  data-ajax="false">{{b.name }}</a></td><td>{{b.role}}</td><td><p class="staff-bio">{{b.bio}}</p></td></tr>
-{% endfor %}
-</table>
+{% include collapse-button.html label="Course Staff Bios" id="staff-list" %}
+<div class="collapse" id="staff-list">
+ <div class="card card-body">
+  {% include staff_list.html %}
+ </div>
 </div>
 
-<div data-role="collapsible" data-collapsed="false">
-<h2 id="labs">Labs:</h2>
-{% include lab_table.html %}
+{% include collapse-button.html label="Labs" id="labs" %}
+<div class="collapse" id="labs">
+ <div class="card card-body">
+ {% include lab_table.html %}
+ </div>
 </div>
 
-
-<div data-role="collapsible" data-collapsed="false">
-<h2 id="homework">Homework:</h2>
-{% include hwk_table.html %}
+{% include collapse-button.html label="Homework" id="hwk" %}
+<div class="collapse" id="hwk">
+ <div class="card card-body">
+  {% include hwk_table.html %}
+ </div>
 </div>
 
-<div data-role="collapsible" data-collapsed="false">
-<h2 id="exams">Exams</h2>
-{%include exam_table.html %}
+{% include collapse-button.html label="Exams" id="exams" %}
+<div class="collapse" id="exams">
+ <div class="card card-body">
+  {%include exam_table.html %}
+ </div>
 </div>
 
-<div data-role="collapsible" data-collapsed="false">
-<h2 id="teams">Lectures</h2>
+{% include collapse-button.html label="Lectures" id="lectures" %}
+<div class="collapse" id="lectures">
+ <div class="card card-body">
 
-See also: [LECTURE* repos]({{github_org_url}}?utf8=%E2%9C%93&q=LECTURE&type=&language=) from <{{github_org_url}}>}}>
+  See also: [LECTURE* repos]({{github_org_url}}?utf8=%E2%9C%93&q=LECTURE&type=&language=) from <{{github_org_url}}>}}>
   
 {%include lectures_table.html %}
+ </div>
 </div>
-
