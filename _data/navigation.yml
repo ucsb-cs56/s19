@@ -27,6 +27,8 @@ main_dropdown:
        url: /resource_list/
      - title: Tutorials
        url: /tutorial_list/
+     - title: Textbooks
+       url: /textbook_list/
 
 offerings:
    title: S19
