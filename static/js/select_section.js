@@ -15,7 +15,7 @@ function toggle_nav_items(o) {
     });
 }
 
-$( document ).ready(function() {
+$( document ).ready(function() {    
     $(".offerings-dropdown-item").click(
 	function(){
 	    var o = {
