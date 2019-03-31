@@ -89,9 +89,6 @@ offering_menus:
       - title: Lecture
         url: /lecture/
         description: "Lecture"
-      - title: Exam
-        url: /exam/
-        description: "Exams"
       - title: Cal
         url: /info/calendar/
         description: "Assignment Calendar"
