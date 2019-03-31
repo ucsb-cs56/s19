@@ -58,8 +58,6 @@ offering_menus:
              description: "List of General Information Pages"
            - title: Office Hours	
              url: /info/office_hours/
-           - title: Staff
-             url: /staff_list/
       - title: Links
         dropdown:	 
            - title: Gauchospace
@@ -73,10 +71,8 @@ offering_menus:
              description: "Q&A Forum"
       - title: Github
         dropdown:
-           - title: ucsb-cs56-s19
-             url: https://github.com/ucsb-cs56-s19
-           - title: ucsb-cs56-webapps
-             url: https://github.com/ucsb-cs56-webapps
+           - title: ucsb-cs56-s19-wang
+             url: https://github.com/ucsb-cs56-s19-wang
   -
     term: F18
     baseurl: /f18
