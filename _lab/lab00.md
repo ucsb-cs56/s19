@@ -3,8 +3,8 @@ layout: lab
 num: lab00
 ready: true
 desc: "Getting Started"
-assigned: 2019-04-04 16:00
-due: 2019-04-05 23:59
+assigned: 2019-04-01 16:00
+due: 2019-04-07 23:59
 signup_app: https://ucsb-cs-github-linker.herokuapp.com/
 ---
 
@@ -34,7 +34,6 @@ The rest of these instructions will assume you know all of the
 above. If not, then let your TA know, and we'll point you to resources
 where you can come up to speed.
 
-
 As a separate item, you should also know how to connect to CSIL from your own computer (PC/Mac/Linux)
 
 -   Windows: Putty, optionally with XMing. See for example: [CSIL Access:Windows](https://foo.cs.ucsb.edu/56wiki/index.php/CSIL_Access:Windows).   Note that a better option than PuTTY/XMing may be [MobaXTerm](http://mobaxterm.mobatek.net/), since it integrates ssh and X11 access into a single free tool.
@@ -44,7 +43,6 @@ But, you don't need that for today's lab---so let's continue.
 
 The rest of the lab: Step-by-Step
 =================================
-
 
 ## Step 1: Create a CoE account if you don't have one already
 
