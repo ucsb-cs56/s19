@@ -3,7 +3,7 @@ layout: lab
 num: lab00
 ready: true
 desc: "Getting Started"
-assigned: 2019-04-01 16:00
+assigned: 2019-04-01 08:00
 due: 2019-04-07 23:59
 signup_app: https://ucsb-cs-github-linker.herokuapp.com/
 ---
@@ -120,7 +120,7 @@ Visit <https://github.ucsb.edu> and login with your CSIL account, to establish y
 
    5. Run the file with the command `java Hello`
 
-   6. Navigate to <https://gradescope.com>.   You should have an account invitation in your email.  If you don't, ask an instructor, TA or mentor for assistance.
+   6. Navigate to <https://gradescope.com>. You should have an account invitation in your email.  If you don't, ask an instructor, TA or mentor for assistance.
 
    7. Upload your work to Gradescope.com for grading. If you are working from your own machine (i.e. ssh'ing into CSIL), you'll need to transfer the file to your own machine before you can upload it for grading.    
       * If you aren't sure how, there is a link on the CS16 web page that explains [how to copy files between CSIL and your own machine](https://ucsb-cs16.github.io/topics/csil_copying_files/).
