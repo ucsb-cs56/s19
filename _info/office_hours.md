@@ -14,20 +14,21 @@ Richert Wang (HFH 1151)
 
 # TAs
 
-Alex Ermakov (TBD)
+Alex Ermakov (Trailer 936, Room 103 / 104)
 
-TBD
+* Wednesdays 12pm - 1pm
+* Thursdays 2pm - 3pm
 
-Xiyou Zhou (TBD)
+Xiyou Zhou (Phelps 3534)
 
-TBD
+* Thursdays 3pm - 4pm
 
 # Mentor Open Lab Hours
 
-Max Kiss (Phelps 3526)
+* Max Kiss (Phelps 3526)
 
-TBD
+Tuesdays 5pm - 6pm
 
-Ekta Shahani (Phelps 3526)
+* Ekta Shahani (Phelps 3526)
 
-TBD
+Tuesdays 5pm - 7pm 
