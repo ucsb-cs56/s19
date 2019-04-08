@@ -25,10 +25,10 @@ Xiyou Zhou (Phelps 3534)
 
 # Mentor Open Lab Hours
 
-* Max Kiss (Phelps 3526)
+Max Kiss (Phelps 3526)
 
-Tuesdays 5pm - 6pm
+* Tuesdays 5pm - 6pm
 
-* Ekta Shahani (Phelps 3526)
+Ekta Shahani (Phelps 3526)
 
-Tuesdays 5pm - 7pm 
+* Tuesdays 5pm - 7pm 
