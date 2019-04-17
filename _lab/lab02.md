@@ -122,13 +122,14 @@ There are many ways to structure / organize your code and I will provide some re
 
 <b>CrapsGame.java</b>
 * A class representing all the information for a single craps game. This includes:
-    * Number of times a roll happened
+    * Number of rolls that happened in a game
     * A CrapsMetricsMonitor object
         * Public methods that this class must implement are:
         * CrapsGame(CrapsMetricsMonitor monitor)
             * Constructor that initializes the class fields. A CrapsMetricsMonitor is passed into the constructor since there are specific stats within a single game that must be updated (and the same object should be used for all metrics in the simulation).
     * boolean playGame()
         * Contains the algorithm for an actual game.
+        * Returns true if the game was won, false otherwise.
 
 <b>CrapsMetricsMonitor.java</b>
 * A class representing all of the statistics gathered during a single simulation. 
