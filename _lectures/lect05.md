@@ -378,7 +378,7 @@ public class Tester {
 
 `javac -cp .:lib/* Tester.java Example.java`
 
-* `-cp` tells the compiler to use '.' And `lib/*` as part of the classpath.
+* `-cp` tells the compiler to use the current directory with '.' and `lib/*` as part of the classpath (assuming this .jar file lives in a `lib` subdirectory).
 * Tester.java contains the JUnit tests
 * Example.java contains code the JUnit tests will use
 
