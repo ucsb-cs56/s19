@@ -102,7 +102,7 @@ Replay? Enter 'y' or 'n': <b>n</b>
 
 There are many ways to structure / organize your code and I will provide some requirements for you to follow. Some objects to implement are:
 
-<b>Lab2.java</b>
+<b>Lab02.java</b>
 * Contains the main method. All it does is construct a CrapsSimulation object and calls .start() on it.
 
 <b>CrapsSimulation.java</b>
