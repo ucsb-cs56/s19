@@ -345,7 +345,7 @@ The lab assignment "Lab03" should appear in your Gradescope dashboard in CMPSC 5
 
 For this lab, you will need to upload your source files:
 
-**NOTE: Please be sure to ONLY submit these files in order to help our TAs streamline grading. DO NOT include additional files (such as .class files). Also, DO NOT put your files into any subdirectories when submitting your files to Gradescope.**:
+**NOTE: Please be sure to ONLY submit these files in order to help our TAs streamline grading. DO NOT include additional files (such as .class files). Also, DO NOT put your files into any subdirectories or define specific packages when submitting your files to Gradescope.**:
 
 * `ClassRosterUI.java`
 * `Course.java`
