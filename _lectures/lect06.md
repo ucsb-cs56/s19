@@ -353,7 +353,7 @@ Vehicle v1 = (Vehicle) new Object(); // runtime error, ClassCastException
 Vehicle v2 = (Vehicle) new Car(120, "black", "Pontiac", "GrandAM"); // OK
 
 Car c = (Car) v2;
-System.out.println(e.getModel()); // still OK. Object exists fully on heap
+System.out.println(c.getModel()); // still OK. Object exists fully on heap
 
 Object o = new Vehicle(100, "blue");
 Vehicle v = (Vehicle) o; // OK
