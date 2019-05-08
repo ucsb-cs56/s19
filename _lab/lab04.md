@@ -139,7 +139,7 @@ You will be able to implement your program satisfying the specifications above, 
 * An Interface with the following abstract methods that need to be overwritten by classes implementing this Interface:
     * `public abstract void addItem(MusicTrack itemToAdd)`
         * Adds the Music Track into the appropriate `ArtistBucket` or `TitleBucket`.
-    * `public ArrayList<ArrayList<MusicTrack>> getBuckets()`
+    * `public abstract ArrayList<ArrayList<MusicTrack>> getBuckets()`
         * Getter method that returns the ArrayList of ArrayList structure.
 
 `ArtistBucket.java`
