@@ -153,7 +153,7 @@ You will be able to implement your program satisfying the specifications above, 
 `OutputFileInterface.java`
 * An Interface with the following abstract methods that need to be overwritten by classes implementing this Interface:
     * `public abstract void open(String outputFileName)`
-        * Uses a Scanner object to write Music Track information to a file named `outputFileName`.
+        * Uses a PrintWriter object to write Music Track information to a file named `outputFileName`.
         * You may assume that `outputFileName` is formatted correctly.
     * `public abstract void writeItem(MusicTrack trackToWrite)`
         * Writes the information for a single Music Track item to the file.
