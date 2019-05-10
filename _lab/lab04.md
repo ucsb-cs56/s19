@@ -180,6 +180,10 @@ For the example, `a` or `A` will return an index 0, `b` or `B` will return an in
 
 For this lab, you may use the given `MusicList.txt` file and the resulting output to confirm the correctness of your program. You may also create your own `MusicList.txt` files to test the edge cases (duplicate artist / title names) to make sure your ArrayLists are sorted properly.
 
+I do expect students to practice writing unit tests for this lab, but will keep the requirements flexible so everyone can think and explore which tests are important in order to satisfy the specifications. The test file should contain JUnit tests named `MusicLibraryTests.java`. 
+
+At the very least it's a good idea to check if the artist / title buckets are functioning correctly (storing digital / vinyl music tracks into the buckets as well as keeping the music tracks in sorted order according to the specifications), and if music track information is displayed in the correct format. 
+
 # Submitting to Gradescope
 
 The lab assignment "Lab04" should appear in your Gradescope dashboard in CMPSC 56. If you haven't submitted anything for this assignment yet, Gradescope will prompt you to upload your files.
