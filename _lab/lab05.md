@@ -442,13 +442,17 @@ I would recommend looking into some Java collections (or similar) such as:
 
 In addition to displaying events as shown above, you will need to write JUnit tests in a test file named `MessageBoardTester.java`. This file will test various scenarios for the public MessageBoard methods stated above.
 
+# Code Organization and Design
+
+In order to help our TAs understand the overall design approach of your code, please submit a image containing a UML diagram with your code organization. Name this file `UML(.jpg, .jpeg, .pdf, or .png). 
+
 # Submitting to Gradescope
 
 The lab assignment "Lab05" should appear in your Gradescope dashboard in CMPSC 56. If you haven't submitted anything for this assignment yet, Gradescope will prompt you to upload your files.
 
 **Remember to add your partner to Groups Members for this submission on Gradescope if applicable. Please include both names and PERM numbers for each submitted file. At this point, if you worked in a pair, it is a good idea for both partners to log into Gradescope and check if you can see the uploaded files for Lab05.**
 
-For this lab, you will need to upload all of your .java source files
+For this lab, you will need to upload all of your .java source files and your UML class diagram file.
 
 **NOTE: Please be sure to ONLY submit the .java files in order to help our TAs streamline grading. DO NOT include additional files (such as .class files). Also, DO NOT put your files into any subdirectories or define specific packages when submitting your files to Gradescope**:
 
