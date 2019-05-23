@@ -5,7 +5,6 @@
 Jekyll based website for UCSB CS56, Spring 2019
 
 * Website: <https://ucsb-cs56.github.io/s19/>
-* This version is intended to replace <https://ucsb-cs56-s19.github.io>.
 * It uses the new Jekyll theme approach to make these sites easier to maintain.
 * The theme currently being used can be find in the jekyll-theme value
 in `_config.yml`
