@@ -1,6 +1,6 @@
 ---
 title: Lectures
-permalink: "/lectures/"
+permalink: "/lecture/"
 ---
 
 # {{site.course}}, {{site.quarter}}
