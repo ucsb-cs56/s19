@@ -37,7 +37,7 @@ offering_menus:
     baseurl: /f18
     items: 
       - title: Hwk
-        url: /hwk_list/
+        url: /hwk/
         description: "Homework Assignments"
       - title: Lab
         url: /lab/
