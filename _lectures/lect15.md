@@ -47,15 +47,15 @@ public class MyThread extends Thread {
 ```
 ```
 // main method
-        SomeThread t = new SomeThread();
+        MyThread t = new MyThread();
         t.start();
-//      SomeThread t2 = new SomeThread();
+//      MyThread t2 = new MyThread();
 //      t2.start();
-//      SomeThread t3 = new SomeThread();
+//      MyThread t3 = new MyThread();
 //      t3.start();
-//      SomeThread t4 = new SomeThread();
+//      MyThread t4 = new MyThread();
 //      t4.start();
-//      SomeThread t5 = new SomeThread();
+//      MyThread t5 = new MyThread();
 //      t5.start();
 ```
 
