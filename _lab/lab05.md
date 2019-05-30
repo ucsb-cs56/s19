@@ -135,7 +135,7 @@ This lab will provide a lot of flexibility on how you design and maintain the me
 
     * `public void displayThread(int postID)`
         * Displays the entire thread that the postID belongs to.
-            * Note that the postID may not be the "root" post in the thread hierarchy.
+            * Note that it is possible that the postID may not be the "root" post in the thread hierarchy.
         * The order of the displayed post must be a depth first traversal that starts with the original post (i.e. Parent Post ID == -1).
             * Then the reply posts are displayed (if any).
             * If a reply also contains replies, this is displayed first before moving on with the rest of the replies for the parent post.
